@@ -1,0 +1,69 @@
+.card-input .code{
+    background-color: rgb(240, 234, 234);
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgb(223, 217, 217);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5) ;
+}
+.card{
+    display: flex;
+    margin: 50px auto;
+    font-size: 18px;
+    font-weight: 400;
+    width: 900px;
+    max-height: 850px;
+    border: 1px solid rgb(216, 211, 211);
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.5) ;
+}
+
+.card input[type="color"]{
+    cursor: pointer;
+
+}
+.card-output{
+    margin:100px 50px;
+    padding: 10px;
+   
+}
+.divider{
+    display: flex;
+}
+.divider .value_2{
+    margin: 100px 20px;
+}
+.card-output .text{
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.card textarea:hover{
+   outline: none;
+   border: 1px solid blue;
+   box-shadow: 0 0 3px rgb(76, 161, 201);
+}
+.card textarea{
+    outline: none;
+}
+.text-style{
+    display: flex;
+}
+.text-style .text_2{
+    margin: 0 10px;
+}
+.out h2{
+    font-size: 18px;
+}
+.out h2 span{
+    color: rgb(167, 164, 164);
+}
+.top_new{
+    display:flex;
+}
+.top_new .time_new{
+    margin:0 80px ;
+}
